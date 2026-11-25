@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\R.R\\Documents\\CSharp_Array\\Array - Aufgaben\\Array - Aufgaben.csproj",
+      "projectUniqueName": "C:\\Users\\R.R\\Documents\\GitHub\\CSharp-Exercises\\CSharp_Array\\Array - Aufgaben\\Array - Aufgaben.csproj",
       "projectName": "Array - Aufgaben",
-      "projectPath": "C:\\Users\\R.R\\Documents\\CSharp_Array\\Array - Aufgaben\\Array - Aufgaben.csproj",
+      "projectPath": "C:\\Users\\R.R\\Documents\\GitHub\\CSharp-Exercises\\CSharp_Array\\Array - Aufgaben\\Array - Aufgaben.csproj",
       "packagesPath": "C:\\Users\\R.R\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\R.R\\Documents\\CSharp_Array\\Array - Aufgaben\\obj\\",
+      "outputPath": "C:\\Users\\R.R\\Documents\\GitHub\\CSharp-Exercises\\CSharp_Array\\Array - Aufgaben\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\R.R\\AppData\\Roaming\\NuGet\\NuGet.Config",

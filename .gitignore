@@ -1,0 +1,7 @@
+# Visual Studio
+.vs/
+**/.vs/
+
+# .NET Build Files
+**/bin/
+**/obj/
