@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\R.R\\Documents\\CSharp_Array\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2665816-DBCC-4F45-9E59-0F61ED8A6909}|Array - Aufgaben\\Array - Aufgaben.csproj|c:\\users\\r.r\\documents\\csharp_array\\array - aufgaben\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2665816-DBCC-4F45-9E59-0F61ED8A6909}|Array - Aufgaben\\Array - Aufgaben.csproj|solutionrelative:array - aufgaben\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\R.R\\Documents\\CSharp_Array\\Array - Aufgaben\\Program.cs",
+              "RelativeDocumentMoniker": "Array - Aufgaben\\Program.cs",
+              "ToolTip": "C:\\Users\\R.R\\Documents\\CSharp_Array\\Array - Aufgaben\\Program.cs*",
+              "RelativeToolTip": "Array - Aufgaben\\Program.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T12:00:24.368Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

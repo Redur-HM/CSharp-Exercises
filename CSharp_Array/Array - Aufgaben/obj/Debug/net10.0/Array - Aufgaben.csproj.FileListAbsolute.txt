@@ -1,0 +1,16 @@
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\bin\Debug\net10.0\Array - Aufgaben.exe
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\bin\Debug\net10.0\Array - Aufgaben.deps.json
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\bin\Debug\net10.0\Array - Aufgaben.runtimeconfig.json
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\bin\Debug\net10.0\Array - Aufgaben.runtimeconfig.dev.json
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\bin\Debug\net10.0\Array - Aufgaben.dll
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\bin\Debug\net10.0\Array - Aufgaben.pdb
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\Array - Aufgaben.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\Array - Aufgaben.AssemblyInfoInputs.cache
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\Array - Aufgaben.AssemblyInfo.cs
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\Array - Aufgaben.csproj.CoreCompileInputs.cache
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\Array - Aufgaben.dll
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\refint\Array - Aufgaben.dll
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\Array - Aufgaben.pdb
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\Array - Aufgaben.genruntimeconfig.cache
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\ref\Array - Aufgaben.dll
+C:\Users\R.R\Documents\CSharp_Array\Array - Aufgaben\obj\Debug\net10.0\Array - .D75976A4.Up2Date
