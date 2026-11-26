@@ -14,9 +14,28 @@
             Erweiterung: 
             Lassen Sie den Nutzer entscheiden, welche Buchstaben gesucht werden sollen 
             */
+            Mein();
 
+
+        }
+        static void Mein()
+        {
             Console.Write("Geben Sie einen Text ein: ");
-
+            string text = Console.ReadLine();
+            text = text.ToLower();
+            char[] tarray = text.ToCharArray();
+            Console.Write("Welchee Buchstabe wird gesucht? ");
+            char buchstabe1 = Console.ReadLine()[0];
+            char buchstabe = char.ToLower(buchstabe1);
+            int Zaehler = 0;
+            for (int i = 0; i < tarray.Length; i++)
+            {
+                if (tarray[i] == buchstabe)
+                {
+                    Zaehler++;
+                }
+            }
+            Console.WriteLine($"Die Buchstabe '{buchstabe1}' kommt {Zaehler} mal vor.");
         }
     }
 }
