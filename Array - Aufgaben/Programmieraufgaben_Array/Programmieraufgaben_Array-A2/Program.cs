@@ -14,8 +14,9 @@
             Erweiterung: 
             Lassen Sie den Nutzer entscheiden, welche Buchstaben gesucht werden sollen 
             */
-            Mein();
-
+            //Mein();
+            //Variant02();
+            Dozent();
 
         }
         static void Mein()
@@ -26,6 +27,7 @@
             char[] tarray = text.ToCharArray();
             Console.Write("Welchee Buchstabe wird gesucht? ");
             char buchstabe1 = Console.ReadLine()[0];
+            // [0] greift auf das erste Zeichen des eingegebenen Strings zu.
             char buchstabe = char.ToLower(buchstabe1);
             int Zaehler = 0;
             for (int i = 0; i < tarray.Length; i++)
@@ -36,6 +38,29 @@
                 }
             }
             Console.WriteLine($"Die Buchstabe '{buchstabe1}' kommt {Zaehler} mal vor.");
+        }
+        static void Variant02()
+        {
+            Console.Write("Geben Sie einen Text ein: ");
+            string text = Console.ReadLine();
+            text = text.ToLower();
+            char[] tarray = text.ToCharArray();
+            Console.Write("Welchee Buchstabe wird gesucht? ");
+            char buchstabe1 = Console.ReadLine()[0];
+            char buchstabe = char.ToLower(buchstabe1);
+            int anzahl = tarray.Count(c=> c == buchstabe);
+            Console.WriteLine($"Die Buchstabe '{buchstabe1}' kommt {anzahl} mal vor.");
+
+        }
+        static void Dozent()
+        {
+            Console.WriteLine("Text hier: ");
+            string text = Console.ReadLine();
+            int count = 0;
+            foreach (char x in text)
+                if (x == 'a' || x == 'A')
+                    count++;
+            Console.WriteLine(count);
         }
     }
 }
