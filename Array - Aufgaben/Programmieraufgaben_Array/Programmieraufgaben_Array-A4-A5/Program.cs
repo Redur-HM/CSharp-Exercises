@@ -69,11 +69,11 @@ namespace Programmieraufgaben_Array_A4_A5
                     {
                         if (rat[k] == '_')
                         {
-                            stop = false;
+                            //stop = false;
                             break;
                         }
                     }
-                    if (stop)// muss noch Weiter schreiben.
+                    //if (stop)// muss noch Weiter schreiben.
                     {
                             
                     }
@@ -99,14 +99,71 @@ namespace Programmieraufgaben_Array_A4_A5
         }
 
         
-        static void DozentAufgabe04(char [] a)
+        static void DozentAufgabe04()
         {
-            foreach (var z in a)
+            string[] alphabet = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "ä", "ö", "ü" };
+            string gesucht = "Bahnhof";
+            char[] gefunden = new char[gesucht.Length];
+            for (int i = 0; i < gefunden.Length; i++)
             {
-                Console.Write(z + " ");
+                gefunden[i] = '_';
             }
-                
-        
+            bool isEnde = false;
+            int versuche = 11;
+            while (!isEnde)
+            {
+                versuche--;
+                Console.Clear();
+                Console.WriteLine(gefunden);
+                Console.WriteLine($"Verbleibende Versuche: {versuche}");
+                Console.WriteLine($"Gib einen Buchstaben ein: ");
+                char buchstabe = Console.ReadLine()[0];
+                for (int i = 0; i < alphabet.Length; i++)
+                {
+                    if (alphabet[i] == buchstabe.ToString().ToLower())
+                    {
+                        alphabet[i] = "";
+                    }
+                }
+                for (int i = 0; i < gesucht.Length; i++)
+                {
+                    if (gesucht[i] == buchstabe)
+                    {
+                        gefunden[i] = gesucht[i];
+                        versuche++;
+                    }
+                }
+
+                if (isEqual(new string(gefunden), gesucht))
+                {
+                    isEnde = true;
+                }
+                else if (versuche < 1)
+                {
+                    isEnde = true;
+                }
+            }//Game
+            Console.WriteLine("Ende: " + gesucht);
+
+        }
+        static bool SollWeiter()
+        {
+            Console.WriteLine("Kommt da noch was?(j/n)");
+            string key = Console.ReadLine();
+            if (key.ToLower() == "n")
+            {
+                return false;
+            }//Ende if
+            return true;
+        }
+        static bool isEqual(string a, string b)
+        {
+            if (a.Length == b.Length)
+                for (int i = 0; i < a.Length; i++)
+                    if (a[i] != b[i])
+                        return false;
+
+            return true;
         }
     }
 }
